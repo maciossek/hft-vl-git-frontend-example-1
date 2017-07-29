@@ -44,7 +44,7 @@ module.exports = function(env) {
           use: ['css-hot-loader'].concat(ExtractTextPlugin.extract({
             fallback: 'style-loader',
             use: [
-              'css-loader?sourceMap&-minimize&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+              'css-loader?sourceMap&importLoaders=1',
               'postcss-loader',
               'sass-loader'
             ]

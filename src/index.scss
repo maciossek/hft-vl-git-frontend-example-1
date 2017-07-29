@@ -1,3 +1,9 @@
+// Wanna change Bootstrap Variables? Do this:
+// Copy bootstrap/scss/bootstrap/_variables.scss
+// import your copied variables.scss and edit stuff
+
+@import "~bootstrap/scss/bootstrap";
+
 $color-main: beige;
 
 body {
