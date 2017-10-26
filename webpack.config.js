@@ -68,7 +68,8 @@ module.exports = function(env) {
         'jQuery': 'jquery',
         'window.jQuery': 'jquery',
         'Tether': 'tether',
-        'window.Tether': 'tether'
+        'window.Tether': 'tether',
+        Popper: ['popper.js', 'default'],
       })
     ]
   }
