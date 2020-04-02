@@ -54,6 +54,14 @@ module.exports = function(env) {
             "postcss-loader",
             "sass-loader"
           ]
+        },
+        {
+          test: /\.(png|svg|jpg|jpeg|gif)$/,
+          use: ["file-loader"]
+        },
+        {
+          test: /\.html$/i,
+          loader: "html-loader"
         }
       ]
     },
